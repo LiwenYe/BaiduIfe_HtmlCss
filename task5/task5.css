@@ -128,7 +128,8 @@ margin-bottom: 10px;
     border-collapse: collapse;
 }
 
-.fourth table tr th,td{
+.fourth table tr th,
+.fourth table tr td{
     border: 1px solid #aaaaaa;
     padding: 3px;
 
@@ -140,14 +141,10 @@ margin-bottom: 10px;
     text-align: left;
 }
 
-
-
 .fourth tfoot{
     background-color: #b8b8b8;
     font-weight: bold;
 }
-
-
 
    /****************************************************/
 
@@ -164,6 +161,7 @@ margin-bottom: 10px;
     border-left: 3px solid #aaa;
     padding: 6px 10px;
 }
+
 
 #set table{
     width: 100%;
@@ -200,6 +198,17 @@ margin-bottom: 10px;
     padding: 10px;
     border-radius: 15px;
 }
+/*
+.left{
+    float: left;
+    width: 38%;
+    text-align: right;
+}
+
+.left label{
+    display: inline-block;
+}*/
+
    /****************************************************/
 /****************************************************/
 
