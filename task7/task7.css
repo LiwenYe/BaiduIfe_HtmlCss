@@ -1,0 +1,650 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:"宋体",sans-serif;
+}
+
+body{
+    min-width: 1280px;
+}
+
+header {
+    width: 100%;
+    height: 54px;
+    overflow: auto;
+    font-weight: bold;
+}
+
+header .pic_nw{
+    display: flex;
+    float: left;
+    margin-top: 13px;
+    margin-left: 5%;
+}
+
+header .pic_nw p{
+    font-size: 20px;
+    margin: 3px 0 0 5px;
+    opacity: 0.7;
+}
+
+header .login{
+    float: right;
+    margin-top: 15px;
+    margin-right: 7%;
+    display: flex;
+}
+
+header .login p{
+    font-size: 14px;
+    margin-left: 3px;
+    color: #d45d5c;
+}
+
+header nav{
+   float: right;
+    padding-top: 15px;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li{
+    width: 60px;
+    margin-right: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #938e8c;
+    height: 35px;
+}
+
+header nav ul li:first-child{
+    border-bottom: 3px solid #d45d5c;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #d45d5c;
+}
+
+/***************************************************/
+#main{
+    width: 100%;
+}
+
+#main .fir{
+    width: 100%;
+    position:relative;
+}
+
+#main .fir img{
+    width:100%;
+    height: 688px;
+}
+
+#main .fir .tonl{
+    height: 250px;
+    width: 500px;
+    position: absolute;
+    top:30%;
+    left: 10%;
+}
+
+#main .fir .tonl h1{
+    font-size: 65px;
+    margin-bottom: 5px;
+    color: #f0f0f0;
+}
+
+#main .fir .tonl p{
+    font-size: 21px;
+    line-height: 32px;
+    color: #e2e2e2;
+}
+
+#main .fir .tonl .button{
+    width: 60%;
+    margin-top: 60px;
+    padding: 15px;
+    text-align: center;
+    background:#d45d5c;
+}
+
+#main .fir .tonl .button a{
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #f0f0f0;
+}
+
+#main .sec{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#main .sec .circle,
+#main .sec .flag,
+#main .sec .flower,
+#main .sec .square{
+    width: 24%;
+    text-align: center;
+    margin:40px 0 50px 0;
+}
+
+#main .sec .circle p,
+#main .sec .flag p,
+#main .sec .flower p,
+#main .sec .square p{
+    padding: 5px 80px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 30px 0 25px 0;
+    color: #938e8c;
+    border-right: 2px solid #938e8c;
+}
+
+#main .thr{
+    width:100%;
+}
+
+#main .thr .one{
+    width: 100%;
+    height: 360px;
+    background: #ededec;
+    text-align: center;
+}
+
+#main .thr .one img{
+    margin-top: 70px;
+}
+
+#main .thr .one p{
+    font-size: 50px;
+    color: #a1a1a1;
+    margin-top: 20px;
+    font-weight:bold;
+}
+
+#main .thr .two{
+    width: 100%;
+    position: relative;
+}
+
+#main .thr .two img{
+    width: 100%;
+}
+
+#main .thr .two .word_select{
+    position: absolute;
+    text-align: center;
+    top: 80px;
+    left:13%;
+}
+
+#main .thr .two .word_select .title{
+    font-size: 21px;
+    font-weight:bold;
+    color: white;
+    margin-bottom: 25px;
+    opacity:0.8;
+}
+
+
+#main .thr .two .word_select .title span{
+    padding-bottom: 5px;
+    border-bottom: 2px solid white;
+}
+#main .thr .two .word_select .details{
+    font-size: 13px;
+    font-weight:bold;
+    color: white;
+    opacity:0.8;
+    margin-bottom: 50px;
+}
+
+#main .thr .two ul{
+    display: flex;
+    list-style-type: none;
+}
+
+#main .thr .two ul li{
+    width: 238px;
+    margin-right: 30px;
+    overflow: hidden;
+}
+
+#main .thr .two ul li .select{
+    width: 280px;
+    height: 38px;
+    color: #b5b7b7;
+    background: url("picture/downicon.jpg");
+    font-size: 13px;
+
+}
+
+#main .thr .two ul li p{
+    background:  #be4e48;
+    width: 238px;
+    height: 35px;
+    line-height: 35px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1em;
+    text-align: center;
+}
+
+#main .thr .three{
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: #e2e2e2;
+    padding: 100px 0;
+}
+
+#main .thr .three .picture{
+    margin: 0 25px;
+    padding: 8px 6px;
+    background: #f0f0f0;
+    border:1px solid #b5b7b7;
+}
+
+#main .thr .three h1{
+    font-size: 25px;
+    padding-left: 0.9em;
+    letter-spacing: 0.9em;
+}
+
+#main .thr .three h2{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+#main .thr .three p{
+    margin-top: 5px;
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+
+#main .four{
+    width: 100%;
+    display: flex;
+}
+
+#main .four .left{
+    width:68%;
+    height: 600px;
+    display: flex;
+    background: url("picture/socks.jpg");
+    background-size: cover;
+}
+
+#main .four .left .left_word{
+    width: 90%;
+    position: relative;
+}
+
+#main .four .left .left_word .newWorld{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-40%,-50%);
+}
+
+#main .four .left .left_word .newWorld .part_1{
+    font-size: 50px;
+}
+
+#main .four .left .left_word .newWorld .part_2{
+    font-size: 180px;
+}
+
+#main .four .left .right_triangle{
+    width: 10%;
+    position: relative;
+}
+
+#main .four .left .right_triangle .triangle_left{
+    width: 0px;
+    height: 0px;
+    border-top: 17px solid transparent;
+    border-right: 30px solid white;
+    border-bottom: 17px solid transparent;
+    position: absolute;
+    top:50%;
+    right: 0;
+}
+
+#main .four .right{
+    width: 32%;
+    position: relative;
+}
+
+
+#main .four .right .newWorld01{
+    width: 70%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#main .four .right .newWorld01 h3{
+    font-size: 22px;
+    margin: 0 0 30px 30% ;
+}
+
+#main .four .right .newWorld01 h3 .ita{
+    margin: 0 0.3em;
+}
+
+#main .four .right .newWorld01 h3 .red01{
+    color: red;
+}
+
+#main .four .right .newWorld01 p{
+    font-size: 13px;
+    line-height: 30px;
+    color: #a1a1a1;
+    margin-bottom: 45px;
+}
+
+#main .four .right .newWorld01 button{
+    padding: 7px 25px;
+    border:1px solid red;
+    font-size: 13px;
+    color:red;
+    background: white;
+    margin-left: 30%;
+}
+
+#main .four .right .newWorld01 .select_button{
+    margin: 10% 0 0 37%;
+}
+
+#main .four .right .newWorld01 .select_button img{
+    margin-right: 5px;
+}
+
+#main .fiv{
+    width: 100%;
+    display: flex;
+    height: 560px;
+}
+
+#main .fiv .red{
+    width: 34%;
+    font-size: 21px;
+    line-height: 35px;
+    color: white;
+    background: red;
+    text-align: center;
+    padding-top: 180px;
+}
+
+#main .fiv .red span{
+    width: 40px;
+    border-top: 2px solid white;
+    display: inline-block;
+}
+
+#main .fiv .red .words:hover~ span{
+    width: 160px;
+}
+
+#main .fiv .red button{
+    font-size: 19px;
+    color: white;
+    background: red;
+    border: 1px solid white;
+    margin-top: 30px;
+    padding: 8px 35px;
+}
+
+#main .fiv .red button:hover{
+    background: white;
+    color: red;
+}
+
+#main .fiv .white{
+    width: 34%;
+    font-size: 21px;
+    line-height: 35px;
+    text-align: center;
+    padding-top: 180px;
+}
+
+#main .fiv .white span{
+    display: inline-block;
+    width: 40px;
+    border-top: 2px solid red;
+}
+
+#main .fiv .white .words:hover~ span{
+    width: 160px;
+}
+
+#main .fiv .white button{
+    font-size: 19px;
+    color: red;
+    background: white;
+    border: 1px solid red;
+    margin-top: 30px;
+    padding: 8px 35px;
+}
+
+#main .fiv .white button:hover{
+    background: red;
+    color: white;
+}
+
+#main .fiv .girl{
+    width: 32%;
+    background: url("picture/girl.jpg");
+    background-size: cover;
+}
+
+#main .fiv .girl .triangle_right{
+    width: 0px;
+    height: 0px;
+    border-top: 17px solid transparent;
+    border-left: 30px solid white;
+    border-bottom: 17px solid transparent;
+    margin-top: 50%;
+}
+
+#main .six {
+    width: 100%;
+    padding-bottom: 200px;
+}
+
+#main .six .volunteer{
+    width: 100%;
+    padding: 120px 0px 100px;
+    color: #a1a1a1;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 19px;
+    text-align: center;
+}
+
+#main .six .volunteer .title{
+    font-size: 22px;
+    color:black;
+    margin-bottom: 12px;
+}
+
+#main .six .volunteer span{
+    display: inline-block;
+    width: 38px;
+    border-top: 2px solid red;
+    margin-bottom: 10px;
+}
+
+#main .six .volunteer .title:hover~ span{
+    width: 170px;
+}
+
+#main .six .bottom{
+    width: 100%;
+    display: flex;
+}
+
+#main .six .intro{
+    width: 26%;
+    font-size: 14px;
+    color: #a1a1a1;
+    line-height: 20px;
+    margin: 0 5% 0 8%;
+}
+
+#main .six .intro .mb{
+    margin-bottom: 46px;
+    position: relative;
+}
+
+#main .six .intro .mb .title{
+    font-size: 17px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+#main .six .intro .mb .more{
+    position: absolute;
+    right: 10px;
+}
+
+#main .six .intro .mb .more a {
+    text-decoration: none;
+    color: #a1a1a1;
+}
+
+#main .six .info_collec{
+    width: 50%;
+}
+
+#main .six .info_collec .back_bor{
+     background: #f0f0f0;
+     width: 46%;
+     padding-left: 20px;
+     float: left;
+    margin-bottom: 20px;
+ }
+
+
+#main .six .info_collec .float_right{
+    float: right;
+}
+
+#main .six .info_collec .back_bor label{
+    font-size: 14px;
+    color: #938e8c;
+}
+
+#main .six .info_collec .back_bor input{
+    /*去除边框*/
+    border: 0!important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /************/
+    width: 73%;
+    height: 47px;
+    background: #f0f0f0;
+    /*选中时无蓝框*/
+    outline: none;
+}
+
+#main .six .info_collec textarea{
+    width: 99%;
+    height: 110px;
+    background: #f0f0f0;
+    font-size: 14px;
+    color: #938e8c;
+    padding: 10px 0 0 10px;
+    /*去除边框*/
+    border: 0px solid;
+    /*去除右下角三角形*/
+    resize: none;
+    margin-bottom: 20px;
+}
+
+#main .six .info_collec input[type="submit"]{
+    width: 100%;
+    background: #f0f0f0;
+    font-size: 15px;
+    color: black;
+    padding: 10px 0;
+    border:none;
+}
+
+#main .seven{
+    width: 100%;
+    background: #383838;
+}
+
+#main .seven .up{
+    width: 100%;
+    text-align: center;
+    padding: 90px 0;
+}
+
+#main .seven .up h2{
+    color: white;
+    margin-bottom: 5px;
+}
+
+#main .seven .up p{
+    font-size: 14px;
+    color: #f0f0f0;
+    line-height: 20px;
+}
+
+#main .seven .up .email_form{
+    background: #636363;
+    width: 570px;
+    margin: 30px auto;
+}
+
+#main .seven .up .email_form input[type="text"]{
+    width: 85%;
+    height: 40px;
+    text-indent: 0.5em;
+    font-size: 17px;
+}
+#main .seven .up .email_form input[type="submit"]{
+    width: 13%;
+    font-size: 17px;
+    color: #ededec;
+    height: 40px;
+    border: none;
+    background: #636363;
+}
+
+#main .seven .up img{
+    margin: 0 5px;
+}
+
+
+#main .seven .down{
+    width: 100%;
+    height: 70px;
+    background: #2a2a2a;
+    position: relative;
+}
+
+#main .seven .down .right a{
+    color: #e2e2e2;
+    text-decoration: none;
+    font-size: 15px;
+    position: absolute;
+    right: 1%;
+    top: 50%;
+    transform: translateY(-50%);
+}
