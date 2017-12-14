@@ -1,0 +1,831 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "华文宋体",sans-serif;
+}
+
+body{
+    min-width: 780px;
+}
+
+header{
+    background: url("image/header-bg.gif");
+
+}
+
+header .logo{
+    margin: 10px 45px;
+}
+
+header .login{
+    float: right;
+    height: 59px;
+    line-height: 60px;
+    margin-right: 5%;
+}
+
+header .login img{
+    vertical-align: middle;
+}
+
+header .login span{
+    color: white;
+    font-size: 13px;
+}
+
+header .search{
+    float: right;
+    height: 59px;
+    line-height: 58px;
+    margin-right: 1.3%;
+    position: relative;
+}
+
+header .search input[type="text"]{
+    width: 270px;
+    height: 30px;
+    padding-left: 40px;
+    border-radius: 15px;
+    border: 0!important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+}
+
+header .search img{
+    position: absolute;
+    top: 23px;
+    left: 15px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+}
+
+.aside{
+    width: 280px;
+    float: left;
+    background: #2a2e3d;
+}
+
+.aside .uesrName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 30px;
+}
+
+.aside .uesrName img{
+    margin-right: 7px;
+}
+
+.aside .uesrName p{
+    color: white;
+    margin-left: 7px;
+}
+
+.aside .uesrData{
+    display: flex;
+    justify-content: center;
+    color: #6e8095;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.aside .uesrData .collect{
+    border-right: 1px solid #313545;
+    padding-right: 30px;
+}
+
+.aside .uesrData .fans{
+    padding-left: 30px;
+}
+
+.aside .uesrData .number{
+    font-size: 18px;
+}
+
+.aside .relativeInformation{
+    font-size: 12px;
+    width: 220px;
+    height: 235px;
+    margin-top: 30px;
+    padding: 10px 0 0 60px;
+    background: #383d4e;
+}
+
+.aside .relativeInformation li{
+    color: #6e8095;
+    height: 40px;
+    line-height: 40px;
+    list-style-type: none;
+}
+
+.aside .relativeInformation img{
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.aside .relativeInformation .reportForm,
+.aside .relativeInformation .reportForm .file .whiteWord{
+    color: white;
+}
+
+.aside .relativeInformation .reportForm .file li{
+    margin-left: 25px;
+}
+
+.aside .relativeInformation .file img{
+    margin-right: 4px;
+}
+
+.aside .relativeInformation .file .document{
+    margin-left: 15px;
+}
+
+.aside .relativeInformation .reportForm .file3{
+    margin-top: 70px;
+}
+
+.aside .relativeInformation .personCollect{
+    margin-top: 200px;
+}
+
+.aside .relativeInformation .details li{
+    margin-bottom: 25px;
+}
+
+.main{
+    width: calc(100% - 280px);
+    float: left;
+    background: #eeeeee;
+    font-size: 13px;
+    color: darkgray;
+}
+
+.main .position{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 14px 0 0 40px;
+}
+
+.main .position p span{
+    color: #6798c3;
+}
+
+.main .items{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px 50px;
+}
+
+
+.main .items .relativeDetails{
+    background-color: white;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 14px 0 15px 25px;
+    border: 1px solid #d4d4d4;
+    overflow: hidden;
+}
+
+.main .items .relativeDetails form{
+    display: flex;
+}
+
+.main .items .relativeDetails select{
+    border: 1px solid darkgray;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border-radius: 0px;
+    margin-left: 10px;
+    height: 28px;
+    padding-left: 10px;
+}
+
+
+.main .items .relativeDetails .black_arrow{
+    background: url("image/black-arrow.gif") no-repeat 95%;
+}
+
+.main .items .relativeDetails .searchItem{
+    flex-shrink: 0;
+}
+
+.main .items .relativeDetails .searchItem select{
+    width: 80px;
+}
+
+.main .items .relativeDetails .searchItem .blue_arrow{
+    background: url("image/blue-arrow.gif") no-repeat 95%;
+}
+
+.main .items .relativeDetails .buySell{
+    margin-left: 40px;
+    position: relative;
+    width: 210px;
+    flex-shrink: 0;
+}
+
+.main .items .relativeDetails .buySell select{
+    width: 140px;
+}
+
+
+.main .items .relativeDetails .buySell .buyer{
+    margin-bottom: 5px;
+}
+
+.main .items .relativeDetails .buySell .change{
+    position: absolute;
+    right: 0;
+    top: 9px;
+}
+
+.main .items .relativeDetails .details{
+    margin-left: 40px;
+    flex-shrink: 0;
+}
+
+.main .items .relativeDetails .details input{
+    width: 110px;
+    height: 25px;
+    padding-left: 10px;
+    font-size: 13px;
+    margin:0 15px 5px 10px;
+    border: 1px solid darkgray;
+}
+
+.main .items .relativeDetails .details select{
+    width: 80px;
+}
+
+.main .items .relativeDetails .details .ml{
+    margin-left: 15px;
+}
+
+.main .items .relativeDetails .details .long{
+    width: 122px;
+}
+
+.main .items .relativeDetails .searchButton{
+    margin-left: 40px;
+}
+
+.main .items .relativeDetails .searchButton button{
+    width: 50px;
+    height: 25px;
+    background: url("image/header-bg.gif") repeat;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    margin-top: 17px;
+}
+
+.main .items .historySearch{
+    margin-bottom: 20px;
+    display: flex;
+    overflow: hidden;
+}
+
+.main .items .historySearch div{
+    background-color: white;
+    border-width: 1px 0 0 1px;
+    border-style: solid;
+    border-color: #d4d4d4;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.main .items .historySearch .arrow{
+    font-size: 20px;
+    min-width: 35px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.main .items .historySearch .left{
+    margin-right: 5px;
+    flex-grow: 0;
+}
+
+.main .items .historySearch .right{
+    margin-left: 5px;
+    flex-grow: 0;
+}
+
+.main .items .historySearch .timeMoney{
+    padding: 12px 18px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.main .items .historySearch .history{
+    padding: 10px 20px;
+    text-align: center;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.main .items .historySearch .history img{
+    margin-right: 5px;
+}
+
+.main .items .historySearch .timeMoney .time{
+    color: black;
+    font-size: 14px;
+   line-height: 24px;
+}
+
+.main .items .historySearch .timeMoney .money{
+    color: orangered;
+    font-size: 25px;
+}
+
+.main .items .historySearch .timeMoney .money span{
+    color: darkgray;
+    font-size: 20px;
+}
+
+.main .items .statistic{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.main .items .statistic .black_color{
+    color: black;
+    font-size: 13px;
+}
+
+.main .items .statistic .data{
+    display: flex;
+}
+
+.main .items .statistic .data .box{
+    padding: 14px 19px 14px 7px;
+    margin-top: 7px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    border-width: 1px 1px 1px 3px;
+    border-style: solid;
+    font-size: 11px;
+    flex-grow: 1;
+    min-width: 180px;
+}
+
+.main .items .statistic .data .green{
+    border-color: #d4d4d4 #d4d4d4 #d4d4d4 #00ff99;
+    margin-right: 30px;
+}
+
+.main .items .statistic .data .green .left p,
+.main .items .statistic .data .blue .left p,
+.main .items .statistic .data .red .left p,
+.main .items .statistic .data  .yellow .left p{
+    line-height: 23px;
+}
+
+.main .items .statistic .data .right{
+
+    width: 60px;
+}
+
+.main .items .statistic .data .green .right{
+    background: #00ff99;
+}
+
+.main .items .statistic .data .blue{
+    border-color: #d4d4d4 #d4d4d4 #d4d4d4 mediumblue;
+    margin-right: 30px;
+}
+
+.main .items .statistic .data .blue .right{
+    background: mediumblue;
+}
+
+.main .items .statistic .data .red{
+    border-color: #d4d4d4 #d4d4d4 #d4d4d4 orangered;
+    margin-right: 30px;
+}
+
+.main .items .statistic .data .red .right{
+    background: orangered;
+}
+
+.main .items .statistic .data .yellow{
+    border-color: #d4d4d4 #d4d4d4 #d4d4d4 greenyellow;
+}
+
+.main .items .statistic .data .yellow .right{
+    background: greenyellow;
+}
+
+.main .items .firstItem{
+    margin-bottom: 20px;
+    display: flex;
+    overflow: hidden;
+}
+
+.main .items  header{
+    height: 40px;
+    background: #f0f0f0;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    color: #808080;
+}
+
+.main .items .firstItem .left{
+    min-width: 560px;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: 1px solid #aaaaaa;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.main .items .firstItem .left .project_items{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px;
+    background: white;
+
+}
+
+.main .items .firstItem .left .project_items .title{
+    display: flex;
+    color: black;
+}
+
+.main .items .firstItem .left .project_items .title div{
+    background: #f0f0f0;
+    padding: 8px 25px;
+    margin-right: 8px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.main .items .firstItem .left .project_items .title .choosed{
+    border: 1px solid #aaaaaa;
+    border-bottom: none;
+    background: white;
+}
+
+.main .items .firstItem .left .project_items .tab-content{
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    position: relative;
+    color: black;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.main .items .firstItem .left .project_items .tab-content p{
+    width: 89px;
+    height: 2px;
+    background: white;
+    position: absolute;
+    top: -2px;
+}
+
+.main .items .firstItem .left .project_items .tab-content table{
+    width: 85%;
+    margin: 30px;
+    border-collapse: collapse;
+}
+
+.main .items .firstItem .left .project_items .tab-content table td{
+    border: 1px solid #aaaaaa;
+    padding: 10px 18px;
+}
+
+.main .items .firstItem .left .project_items .tab-content  .greyBg{
+    background: #f0f0f0;
+}
+
+.main .items .firstItem .right{
+    min-width: 360px;
+    border-radius: 8px;
+    border: 1px solid #aaaaaa;
+    background: white;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.main .items .firstItem .right .content{
+    background: white;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 15px 40px;
+}
+
+.main .items .firstItem .right .content ul li{
+    list-style: none;
+    padding:5px  5px;
+}
+
+.main .items .firstItem .right .content ul li p{
+    margin-left: 10px;
+}
+
+.main .items .firstItem .right .content .black_color{
+    color: black;
+    margin-top: 9px;
+}
+
+.main .items .firstItem .right .content .double{
+    display: flex;
+}
+
+.main .items .firstItem .right .content .double .price{
+    width: 30%;
+    min-width: 70px;
+    border: 1px solid #f0f0f0;
+    border-left: none;
+    padding: 5px 0;
+}
+
+.main .items .firstItem .right .content .double .principal{
+    width: 60%;
+    min-width: 140px;
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 5px 0;
+}
+
+.main .items .firstItem .right .content .description{
+    padding-bottom: 100px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.main .items .firstItem .right .content label{
+    margin-left:5px;
+    line-height: 28px;
+
+}
+
+.main .items .firstItem .right .content button{
+    float: right;
+    width: 60px;
+    height: 28px;
+    background: dodgerblue;
+    color: white;
+    border: 0!important;
+    border-radius: 2px;
+}
+
+.main .items .calendarCar{
+    width: 100%;
+    margin-bottom: 120px;
+    display: flex;
+    overflow: hidden;
+}
+
+.main .items .calendarCar .left{
+    min-width: 400px;
+    margin-right: 10px;
+    border: 1px solid #aaaaaa;
+    border-radius: 8px;
+    flex-grow: 1;
+    background: white;
+}
+
+.main .items .calendarCar .left .content{
+    padding: 10px 28px;
+}
+
+.main .items .calendarCar .left .content .options{
+    display: flex;
+}
+
+.main .items .calendarCar .left .content .options select{
+    border: 1px solid #aaaaaa;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    padding: 3px;
+    height: 20px;
+    background: url("image/select-down.png") 95% no-repeat;
+    margin-right: 5px;
+}
+
+.main .items .calendarCar .left .content .options .year{
+    width: 65px;
+    flex-grow: 1;
+}
+
+.main .items .calendarCar .left .content .options .month{
+    width: 85px;
+    padding-left: 28px;
+    flex-grow: 1;
+}
+
+.main .items .calendarCar .left .content .options .data{
+    width: 85px;
+    flex-grow: 1;
+}
+
+.main .items .calendarCar .left .content .options button{
+    border: 1px solid #aaaaaa;
+    border-radius: 0;
+    background: white;
+    padding: 3px 8px;
+    flex-grow: 1;
+}
+
+.main .items .calendarCar .left .content .calendar table{
+    width: 100%;
+    color: black;
+    font-size: 12px;
+    margin: 10px 0;
+    border-collapse: collapse;/*设置tr边框*/
+}
+
+.main .items .calendarCar .left .content .calendar table tr td{
+    padding: 6px;
+    text-align: center;
+}
+
+.main .items .calendarCar .left .content .calendar table .week{
+    border-top: 1px solid deepskyblue;/*设置tr边框*/
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.main .items .calendarCar .left .content .calendar table .festival,
+.main .items .calendarCar .left .content .calendar table .weekend{
+    color: red;
+}
+
+.main .items .calendarCar .left .content .calendar table .choose{
+    border: 1px solid #ffcc00;
+    padding: 11px;
+}
+
+.main .items .calendarCar .right{
+    min-width: 520px;
+    border: 1px solid #aaaaaa;
+    border-radius: 8px;
+    flex-grow: 1;
+    background: white;
+}
+
+.main .items .calendarCar .right .detailTable{
+    padding: 20px 40px;
+}
+
+.main .items .calendarCar .right .detailTable table{
+    width: 100%;
+    border: 1px solid #aaaaaa;
+    border-collapse: collapse;
+}
+
+.main .items .calendarCar .right .detailTable table th,
+.main .items .calendarCar .right .detailTable table td{
+    border: 1px solid #aaaaaa;
+    padding: 7px 15px;
+    text-align: center;
+}
+
+.main .items .calendarCar .right .detailTable table .noBorderBottom td{
+    border-bottom: 1px solid white;
+}
+
+.main .items .calendarCar .right .detailTable table td .searchIndex{
+    display: flex;
+    align-items: center;
+}
+
+.main .items .calendarCar .right .detailTable  .searchIndex .red{
+    width: 58%;
+    height: 4px;
+    background: red;
+    margin-left: 15px;
+}
+
+.main .items .calendarCar .right .detailTable  .searchIndex .grey1{
+    width: 14%;
+    height: 4px;
+    background: #d4d4d4;
+}
+
+.main .items .calendarCar .right .detailTable  .searchIndex .orangered{
+    width: 50%;
+    height: 4px;
+    background: orangered;
+    margin-left: 15px;
+}
+
+.main .items .calendarCar .right .detailTable  .searchIndex .grey2{
+    width: 22%;
+    height: 4px;
+    background: #d4d4d4;
+}
+
+.main .items .calendarCar .right .detailTable  .searchIndex .orange{
+    width: 46%;
+    height: 4px;
+    background: orange;
+    margin-left: 15px;
+}
+
+.main .items .calendarCar .right .detailTable  .searchIndex .grey3{
+    width: 26%;
+    height: 4px;
+    background: #d4d4d4;
+}
+
+.main .items .calendarCar .right .detailTable  .searchIndex .colours{
+    height: 4px;
+    background: deepskyblue;
+    margin-left: 15px;
+}
+
+.main .items .calendarCar .right .detailTable  .searchIndex .blue1{
+    width: 42%;
+}
+
+.main .items .calendarCar .right .detailTable  .searchIndex .grey4{
+    width: 30%;
+    height: 4px;
+    background: #d4d4d4;
+}
+
+.main .items .calendarCar .right .detailTable  .searchIndex .blue2{
+    width: 38%;
+}
+
+.main .items .calendarCar .right .detailTable  .searchIndex .grey5{
+    width: 34%;
+    height: 4px;
+    background: #d4d4d4;
+}
+
+.main .items .calendarCar .right .detailTable  .searchIndex .blue3{
+    width: 34%;
+}
+
+.main .items .calendarCar .right .detailTable  .searchIndex .grey6{
+    width: 38%;
+    height: 4px;
+    background: #d4d4d4;
+}
+
+.main .items .calendarCar .right .detailTable  .searchIndex .blue4{
+    width: 30%;
+}
+
+.main .items .calendarCar .right .detailTable  .searchIndex .grey7{
+    width: 42%;
+    height: 4px;
+    background: #d4d4d4;
+}
+
+.main .items .calendarCar .right .detailTable  .searchIndex .blue5{
+    width: 26%;
+}
+
+.main .items .calendarCar .right .detailTable  .searchIndex .grey8{
+    width: 46%;
+    height: 4px;
+    background: #d4d4d4;
+}
+
+.main .items .calendarCar .right .detailTable  .searchIndex .blue6{
+    width: 22%;
+}
+
+.main .items .calendarCar .right .detailTable  .searchIndex .grey9{
+    width: 50%;
+    height: 4px;
+    background: #d4d4d4;
+}
+
+.main .items .calendarCar .right .detailTable  .searchIndex .blue7{
+    width: 18%;
+}
+
+.main .items .calendarCar .right .detailTable  .searchIndex .grey10{
+    width: 54%;
+    height: 4px;
+    background: #d4d4d4;
+}
