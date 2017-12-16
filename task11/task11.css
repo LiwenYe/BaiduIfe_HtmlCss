@@ -1,0 +1,261 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Helvetica Neue",Helvetica,STHeiti,sans-serif;
+}
+
+a,img{
+    -webkit-touch-callout: none;/*禁止长按链接与图片弹出菜单*/
+}
+
+header{
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    background: #91d4da;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    left: 20px;
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px 0;
+}
+
+nav ul li{
+    width: 20%;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul li:hover{
+    border-bottom: 4px solid #91d4da;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.main{
+    width: 100%;
+    background: #f0f0f0;
+}
+
+.main .banner{
+    width: 100%;
+}
+
+.main .banner img{
+    width: 100%;
+}
+
+.main .tags{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 10px;
+    text-align: center;
+    background: white;
+}
+
+.main .tags div img{
+    width: 100%;
+}
+
+.main .tags div p{
+    font-size: 25px;
+    margin-top: 15px;
+}
+.main .whitebg{
+    width: 100%;
+    background: white;
+}
+.main .subfield{
+    width: 96%;
+    display: flex;
+    justify-content: space-around;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-top: 1px solid #aaaaaa;
+    margin-left: 2%;
+    padding: 20px 10px;
+    margin-bottom: 60px;
+}
+
+.main .subfield .block{
+    width: 30%;
+    padding-top: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.main .subfield .xionghaizi{
+    width: 35%;
+}
+
+.main .subfield .block .image{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.main .subfield .block .image img{
+    width: 80%;
+}
+
+.main .subfield  .borderTwo{
+    border-left: 1px solid #aaaaaa;
+    border-right: 1px solid #aaaaaa;
+}
+
+.main .subfield .block .vertical{
+    position: relative;
+    top: 18%;
+}
+
+.main .subfield .block .vertical img{
+    width: 100%;
+}
+
+.main .subfield .block .down{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.main .subfield .block h2{
+    color: #aaaaaa;
+    margin: 10px 0;
+}
+
+.main .module{
+    width: 96%;
+    margin-left: 2%;
+    margin-bottom: 40px;
+    padding-top: 25px;
+}
+
+.main .module h1{
+    padding-bottom: 25px;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+.main .module .copywrite{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.main .module .copywrite .left{
+    width: 25%;
+    text-align: center;
+}
+
+.main .module .copywrite .left img{
+    width: 100%;
+    border: 1px solid orange;
+}
+
+.main .module .copywrite .right{
+    width: 73%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main .module .copywrite .right .pcenter{
+    width: 44%;
+    background: #f0f0f0;
+    margin: 0 10px;
+    position: relative;
+}
+
+.main .module .copywrite .right .first{
+    margin-bottom: 15px;
+}
+
+.main .module .copywrite .right p{
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.main .article{
+    padding: 20px 2%;
+    display: flex;
+    margin-bottom: 3px;
+}
+
+.main .article .left{
+    width: 30%;
+}
+
+.main .article .left img{
+    width: 100%;
+}
+
+.main .article .right{
+    width: 65%;
+    margin-left: 15px;
+    position: relative;
+    font-size: 22px;
+}
+
+.main .article .right p{
+    color: #aaaaaa;
+    position: absolute;
+    bottom: 0;
+    font-size: 18px;
+}
+
+.main .article2{
+    width: 100%;
+    padding: 20px 30px 100px;
+    font-size: 22px;
+}
+
+.main .article2 .picture{
+    display: flex;
+    margin: 10px 0;
+}
+
+.main .article2 .picture div{
+    width: 33%;
+}
+
+.main .article2 .picture div img{
+    width: 100%;
+}
+
+.main .article2 .picture .centermargin{
+    margin: 0 5px;
+}
+
+.main .article2 p{
+    color: #aaaaaa;
+}
