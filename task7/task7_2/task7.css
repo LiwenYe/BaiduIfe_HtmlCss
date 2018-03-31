@@ -1,0 +1,533 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-width: 1280px;
+}
+
+/***********************导航部分***********************/
+header{
+    overflow: auto;
+    font-weight: bold;
+}
+
+header .logoName{
+    float: left;
+    margin: 7px 60px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+header .logoName p{
+    margin-left: 5px;
+}
+
+header .login{
+    float: right;
+    display: flex;
+    align-items: center;
+    height: 52px;
+    margin: 0 55px 0 10px;
+    font-size: 14px;
+    color: #d45d5c;
+}
+header .login img{
+    margin-right: 4px;
+}
+header nav{
+    float: right;
+}
+
+header nav ul{
+    display: flex;
+    height: 52px;
+    margin-right: 10px;
+}
+
+header nav ul li{
+    list-style-type: none;
+    margin-left: 28px;
+    width: 70px;
+    font-size: 14px;
+    line-height: 52px;
+    text-align: center;
+    color: #938e8c;
+}
+
+header nav ul li:first-child{
+    border-bottom: 3px solid #d45d5c;
+    color: #d45d5c;
+}
+/******************************************************************/
+
+/**************************主体部分**********************************/
+/************************第一张大图片******************************/
+main .first{
+    height: 688px;
+    width: 100%;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+main .first img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+main .first article{
+    position: absolute;
+    top: 220px;
+    left: 120px;
+}
+main .first h1{
+    font-size: 60px;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+main .first p{
+    font-size: 20px;
+    line-height: 32px;
+    padding-left: 10px;
+}
+main .first input[type="button"]{
+    font-size: 30px;
+    color: #fff;
+    background: #d45d5c;
+    border: 0!important;
+    font-weight: lighter;
+    padding: 11px 100px;
+    margin-top: 62px;
+    margin-left: 10px;
+}
+/******************************************************************/
+
+/*************************第二部分************************************/
+.second{
+    width: 100%;
+    display: flex;
+    font-size: 14px;
+    color: #938e8c;
+    text-align: center;
+}
+.second div{
+    width: 25%;
+    padding: 45px 0;
+    margin-bottom: 20px;
+}
+.second div p{
+    border-right: 2px solid #938e8c;
+    padding: 7px 25%;
+    margin-top: 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/******************************************************************/
+
+/**************************第三部分开始*****************************/
+.third .one{
+    background: #ededec;
+}
+.third .one{
+    padding: 80px 0 74px;
+    text-align: center;
+}
+.third .one p{
+    font-size: 55px;
+    font-family: "楷体";
+    font-weight: normal;
+    color: #938e8c;
+    margin-top: 20px;
+}
+
+.third .two{
+    position: relative;
+    height: 341px;
+}
+.third .two img{
+    width: 100%;
+    height: 100%;
+}
+.third .two .content{
+    position: absolute;
+    width: 100%;
+    top:  48px;
+    left: 0px;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+.third .two .content .title{
+    font-size: 21px;
+    margin-bottom: 28px;
+}
+.third .two .content form {
+    width: 83%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.third .two .content form div select{
+    width: 236px;
+    height: 36px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url("picture/downicon.jpg");
+    outline-color: #d45d5c;
+    color: darkgray;
+    text-indent:15px;
+}
+.third .two .content form div select option:hover{
+    background: #d45d5c;
+    color: white;
+}
+.third .two .content form input[type="button"]{
+    width: 236px;
+    height: 36px;
+    border: 0!important;
+    background: #d45d5c;
+    color: white;
+}
+
+.third .three{
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding:100px 12% 118px;
+    display: flex;
+    justify-content: space-between;
+}
+.third .three div{
+    font-size: 12px;
+    color: #938e8c;
+    text-align: center;
+}
+.third .three div img{
+    border:1px solid #938e8c;
+    border-bottom: 0;
+    padding: 10px 5px;
+}
+.third .three div .shanghai{
+    border-bottom: 1px solid #938e8c;
+    margin-top: 5px;
+}
+.third .three div .title1{
+    font-size: 14px;
+    color: black;
+    margin: 8px 0 6px;
+}
+.third .three div .title2{
+    font-size: 20px;
+    color: black;
+    letter-spacing:1.7em;
+}
+/******************************************************************/
+
+/***************************第四部分开始***************************/
+.forth{
+    width: 100%;
+    display: flex;
+}
+.forth .left{
+    width: 66%;
+    height: 563px;
+    position: relative;
+}
+.forth .left img{
+    width: 100%;
+    height: 100%;
+}
+.forth .left>.content{
+    width: 100%;
+    position: absolute;
+    top: 120px;
+    left: 0;
+    text-align: center;
+}
+.forth .left .triLeft{
+    position: absolute;
+    right: 0;
+    top: calc(50% - 18px);
+    border-right: 30px solid white;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+}
+.forth .left .content h1{
+    font-size: 50px;
+    color: white;
+    font-weight: normal;
+}
+.forth .left .content .time{
+    font-size: 160px;
+    line-height: 126px;
+    color: white;
+}
+.forth .left .content .alignLeft{
+    text-align: left;
+    width: 150px;
+    margin: 30px auto 140px;
+}
+.forth .left .content .alignLeft p{
+    font-size: 22px;
+    color: white;
+    line-height: 42px;
+}
+.forth .right{
+    width: 34%;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding:170px 70px 0;
+}
+.forth article h2{
+    font-size: 20px;
+    font-weight: normal;
+}
+.forth article h2 span{
+    color: red;
+}
+.forth article p{
+    font-size: 12px;
+    color: #938e8c;
+    line-height: 30px;
+    margin-top: 20px;
+    text-align: left;
+}
+.forth article button{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #d45d5c;
+    color: #d45d5c;
+    background: white;
+    font-size: 12px;
+    padding: 8px 30px;
+    margin: 40px 0 20px;
+}
+/******************************************************************/
+
+/**************************第五部分开始****************************/
+.fifth{
+    display: flex;
+}
+.fifth p{
+    font-size: 21px;
+    color: white;
+    line-height: 30px;
+    font-family: "宋体";
+}
+.fifth hr{
+    width: 30px;
+    height: 2px;
+    margin: 20px auto 24px;
+    border: 0;
+}
+.fifth button{
+    width: 200px;
+    height: 44px;
+    font-size: 18px;
+}
+.fifth .lf{
+    width: 33%;
+    background: #d45d5c;
+    padding: 165px 0 0;
+    text-align: center;
+}
+.fifth .lf>button{
+    color: white;
+    background: #d45d5c;
+    border: 1px solid white;
+}
+.fifth .lf>hr{
+    background: white;
+}
+
+.fifth .ct{
+    width: 33%;
+    padding: 165px 0 0;
+    text-align: center;
+}
+.fifth .ct>button{
+    color: #d45d5c;
+    border: 1px solid #d45d5c;
+    background: white;
+}
+.fifth .ct>hr{
+    background: black;
+}
+.fifth .ct>p{
+    color: black;
+}
+
+.fifth .rg{
+    height: 520px;
+    width: 34%;
+}
+.fifth .rg img{
+    width: 100%;
+    height: 100%;
+}
+/******************************************************************/
+
+/*************************第六部分开始****************************/
+.sixth{
+    width: 100%;
+}
+.sixth article{
+    width: 440px;
+    padding: 115px 0 105px;
+    margin: 0 auto;
+    text-align: center;
+}
+.sixth article h3{
+    font-size: 21px;
+    font-weight: normal;
+    width: 170px;
+    margin: 0 auto;
+    padding-bottom: 6px;
+}
+.sixth article h3 span{
+    border-bottom: 2px solid #d45d5c;
+    padding-bottom: 6px;
+}
+.sixth article h3:hover{
+    border-bottom: 2px solid #d45d5c;
+}
+.sixth article p{
+    font-size: 12px;
+    color: #938e8c;
+    margin-top: 17px;
+    line-height: 16px;
+}
+.sixth .apply{
+    width: 100%;
+    display: flex;
+    padding-bottom: 125px;
+}
+.sixth .apply .details{
+    width: 27%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #938e8c;
+    padding: 0 5% 0 11%;
+}
+.sixth .apply .details .subtitle{
+    font-size: 14px;
+    margin-bottom: 18px;
+    color: black;
+}
+.sixth .apply .details>.more{
+    text-align: right;
+    margin-top: -8px;
+}
+.sixth .apply .details .protocol{
+    margin-bottom: 32px;
+}
+.sixth .apply .details a{
+    text-decoration:none;
+    color: #938e8c;
+}
+.sixth .apply .details .right{
+    margin-bottom: 14px;
+}
+.sixth .apply form{
+    width: 73%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.sixth .apply form table tr td{
+    font-size: 12px;
+    width: 308px;
+    background: #e2e2e2;
+    color: #555;
+}
+.sixth .apply form label{
+    margin-left: 15px;
+}
+.sixth .apply form input{
+    height: 35px;
+    width: 75%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    background: transparent;
+    outline: none;
+}
+.sixth .apply form input[type="button"]{
+    width: 100%;
+}
+.sixth .apply form textarea{
+    font-size: 12px;
+    height: 115px;
+    width: 97%;
+    margin-left: 15px;
+    border: 0;
+    resize: none;
+    background: transparent;
+}
+/******************************************************************/
+
+/*************************第七部分*********************************/
+.seventh{
+    background: #32353e;
+    color: white;
+    padding: 83px 0 62px;
+    text-align: center;
+}
+.seventh>.title{
+    font-size: 21px;
+    line-height: 36px;
+}
+.seventh p{
+    font-size: 11px;
+    line-height: 19px;
+}
+.seventh form{
+    margin: 24px 0 34px;
+}
+.seventh form input[type="text"]{
+    height: 37px;
+    width: 33%;
+}
+.seventh form input[type="submit"]{
+    width: 6%;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    background: #938e8c;
+    border: 0;
+    margin-left: -5px;
+    margin-top: 1px;
+}
+/******************************************************************/
+
+/*******************************footer*****************************/
+footer{
+    width: 100%;
+    background: #303039;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 25px 50px 25px 94px;
+}
+footer p{
+    display: inline-block;
+    font-size: 10px;
+    color: white;
+}
+footer p a{
+    text-decoration: none;
+    color: white;
+}
+footer .right{
+    float: right;
+}
